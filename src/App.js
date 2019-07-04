@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Info from "./components/Info/Info";
+import Location from "./components/Location/Location";
 
-function App() {
+const App = () => {
+  let [tempSymbol, setTempSymbol] = useState("F");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <Info
+        tempSymbol={tempSymbol}
+        setTempSymbol={() => setTempSymbol(tempSymbol === "F" ? "C" : "F")}
+      />
+      <Location />
+      <Location />
+    </main>
   );
-}
+};
 
 export default App;
