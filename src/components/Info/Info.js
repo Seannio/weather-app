@@ -22,7 +22,7 @@ const Info = props => {
       <div className="bottom">
         <p>Your Weather is currently showing in:</p>
         <div className="buttons">
-          <div classname="btn">
+          <div className="btn">
             {props.tempSymbol === "C" ? (
               <button className="clicked">C</button>
             ) : (
@@ -30,7 +30,7 @@ const Info = props => {
             )}
             <p>Celcius</p>
           </div>
-          <div classname="btn">
+          <div className="btn">
             {props.tempSymbol === "F" ? (
               <button className="clicked">F</button>
             ) : (

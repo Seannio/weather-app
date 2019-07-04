@@ -10,7 +10,7 @@ const Location = () => {
     <section>
       <div className="floater">
         <div className="icon-temp">
-          <img src={sun} />
+          <img alt="sunicon" src={sun} />
           <p id="temp">90</p>
         </div>
         <p>Sunny</p>
