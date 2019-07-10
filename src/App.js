@@ -24,7 +24,6 @@ const App = () => {
         setTempSymbol={() => setTempSymbol(tempSymbol === "F" ? "C" : "F")}
       />
       <Location cities={cities[0]} tempSymbol={tempSymbol} />
-      <Location cities={cities[1]} tempsymbol={tempSymbol} />
     </main>
   );
 };
