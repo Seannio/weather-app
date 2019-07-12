@@ -1,7 +1,6 @@
 import React from "react";
 import "./Location.css";
 import ca from "../../img/pic-1.jpg";
-import ru from "../../img/pic-2.jpg";
 
 const Location = props => {
   let currentTemp = 0;
