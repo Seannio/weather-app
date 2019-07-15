@@ -10,10 +10,15 @@ const Info = props => {
     <section>
       <img src={bg} alt="BackgroundShape" id="bg" />
       <h1>
-        WEATHER <br />
-        ME <span>NOW</span>
+        COOL <span>WEATHER</span>
         <hr />
       </h1>
+
+      <div className="search">
+        <input type="text" placeholder="Enter City Name" />
+        <button onClick={props.searchWeather}>Submit</button>
+      </div>
+      <br />
       <p>
         Here's a bunch of dumb bullshit about weather. <br /> Yeah, here's
         another line.

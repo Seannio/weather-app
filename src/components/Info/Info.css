@@ -32,6 +32,33 @@ p {
   align-items: center;
 }
 
+input[type="text"] {
+  padding: 5px;
+  border: none;
+  display: flex;
+  font-family: "Nirmala UI";
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  background: #e9f2f1;
+  color: #fe4a73;
+  border-radius: 15px;
+}
+
+input[type="text"]:focus {
+  background-color: #c2cac9;
+}
+
+.search {
+  display: flex;
+  font-family: "Nirmala UI";
+  font-weight: bold;
+  border: none;
+  background: #e9f2f1;
+  color: #fe4a73;
+  border-radius: 15px;
+}
+
 .buttons {
   display: flex;
 }
