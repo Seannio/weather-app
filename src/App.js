@@ -27,7 +27,7 @@ const App = () => {
     <main>
       <Info
         tempSymbol={tempSymbol}
-        setTempSymbol={() => setTempSymbol(tempSymbol === "F" ? "C" : "F")}
+        setTempSymbol={() => setTempSymbol(tempSymbol === "C" ? "F" : "C")}
         //searchWeather={() => searchWeather((place = "Wow"))}
       />
       <Location cities={cities} tempSymbol={tempSymbol} />
